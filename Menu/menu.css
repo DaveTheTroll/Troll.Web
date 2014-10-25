@@ -1,0 +1,21 @@
+﻿    
+    nav li {
+        list-style: none;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    nav > ul > li {
+        float: left;
+        position: relative;
+    }
+
+        nav > ul > li > ul {
+            visibility: hidden;
+        }
+
+        nav > ul > li:hover > ul {
+            visibility: visible;
+        }
